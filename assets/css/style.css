@@ -131,6 +131,12 @@ h6 {
 }
 #header.header-scrolled a,
 #header.header-inner-pages a {
+  color:#343a40 ;
+    
+}
+
+#header.header-scrolled .western,
+#header.header-inner-pages .western {
   color:#343a40 !important;
     
 }
@@ -159,6 +165,7 @@ h6 {
 #header .logo a{
   color: #fff;
   padding: 20px 0px 20px 20px;
+  text-decoration-line: none !important;
 }
 
 
@@ -184,6 +191,7 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  transform: translateY(-10px) !important;
 }
 
 .navbar li {
@@ -214,7 +222,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #47b2e4;
+  color: #47b2e4 !important;
 }
 
 .navbar .getstarted,
@@ -330,12 +338,14 @@ h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: fixed !important;
   overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  height:100vh;
+  width:100vw;
   background: rgba(40, 58, 90, 0.9);
   transition: 0.3s;
   z-index: 999;
@@ -359,6 +369,7 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  height:30vh;
 }
 
 .navbar-mobile a,
@@ -572,7 +583,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: #f3f5fa !important;
 }
 
 .section-title {
@@ -907,9 +918,7 @@ section {
   margin-bottom: 10px;
 }
 
-.services .container .section-title h2 {
-  font-size: 30px;
-}
+
 
 .services .icon-box .icon i {
   color: #47b2e4;
